@@ -1,0 +1,37 @@
+.navBar{
+    background-color: cadetblue;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(./Assets/Imagenes/logo.png);
+    background-position: center center;
+    background-size: cover;
+    width: 80px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.items a{
+    margin: 10px;
+    color: bisque;
+    position: relative;
+    left: 270px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.animacionItem:hover{
+transform: scale(1.1);
+transition: transform 1.3s;
+color:black;
+}
+
+.toggle{
+    display: none;
+}

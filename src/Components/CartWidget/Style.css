@@ -1,0 +1,17 @@
+.cart{
+    background-image: url(./Assets/Imagenes/cart.png);
+    background-position: center center;
+    background-size: cover;
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.cart a{
+    font-weight: bolder;
+    text-decoration: none;
+    position: relative;
+    top: 2px;
+    left: 13px;
+}
