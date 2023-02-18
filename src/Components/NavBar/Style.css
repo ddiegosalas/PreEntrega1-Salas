@@ -17,21 +17,30 @@
     margin: 5px;
 }
 
-.items a{
-    margin: 10px;
-    color: bisque;
-    position: relative;
-    left: 270px;
-    text-decoration: none;
-    font-weight: bolder;
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.animacionItem:hover{
+.items li{
+    padding: 5px;
+    margin: 10px;
+    list-style-type: none;
+    font-weight: bolder;
+    position: relative;
+    left: 270px;
+}
+
+.style{
+    color: bisque;
+    text-decoration: none;
+    list-style: none;
+}
+
+.style:hover{
 transform: scale(1.1);
 transition: transform 1.3s;
 color:black;
-}
-
-.toggle{
-    display: none;
 }

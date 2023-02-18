@@ -1,0 +1,13 @@
+.itemList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.styleLink{
+    color: black;
+    text-decoration: none;
+}
