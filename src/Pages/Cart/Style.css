@@ -1,0 +1,89 @@
+.carrito{
+    width: 99%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.carritoDefault{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 244, 229, 0.568);
+    border-style:solid;
+    border-width: 1px;
+}
+
+.carritoProductos{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 13px;
+}
+
+.eliminar{
+    background-image: url(./Assets/trash.svg);
+    background-position: center center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.botonVaciar{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.total{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.alerta{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    font-weight: 900;
+    margin-top: 15px;
+}
+
+.cartForm{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 238, 201);
+}
+
+.cartForm input{
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+}

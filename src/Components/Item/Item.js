@@ -3,9 +3,9 @@ import "./Style.css";
 const Item = ({product}) => {
     return (
         <div className="item">
-            <img alt="" src={product.imagen} width ="200px" height= "200px"/>
-            <h2>{product.nombre}</h2>
-            <h3>${product.precio}</h3>
+            <img alt="" src={`/img/${product.Imagen}`}/>
+            <h2>{product.Titulo}</h2>
+            <h3>${product.Precio}</h3>
         </div>
     );
 };

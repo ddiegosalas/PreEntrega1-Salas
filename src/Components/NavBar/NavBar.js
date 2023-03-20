@@ -1,4 +1,4 @@
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Style.css"
 import CartWidget from "../CartWidget/CartWidget";
 
@@ -22,7 +22,7 @@ export default function NavBar () {
                     </li>
                 </ul>
             </div>
-            <CartWidget numero = "1" texto = "Tiene agregado 1 item al changuito"/>
+            <CartWidget/>
         </div>
     );
 }

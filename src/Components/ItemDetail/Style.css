@@ -2,12 +2,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     box-shadow: 0 0 5px 0 black;
     border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin: 40px;
+    height: auto;
     max-width: 80vw;
-    background-color: rgba(250, 235, 215, 0.336);
+    background-color: rgba(253, 236, 214, 0.671);
 }
 
 .details div{
@@ -15,7 +17,7 @@
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
-    padding: 25px;
+    padding: 20px;
 }
 
 .details div h2{
@@ -26,4 +28,37 @@
 .details div h3{
     color: black;
     font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    bottom: 40px;
+}
+
+.contador{
+    display: flex;
+    flex-direction: row;    
+}
+
+.contador div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.agregarCarrito{
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgb(192, 192, 138);
+    background-color: rgba(255, 255, 255, 0.336);
+    font-weight: bold;
+    position: relative;
+    left: 35px;
+    bottom: 50px;
+}
+
+img{
+    width: 196px;
+    height: 170px;
+    box-shadow: 0 0 10px 0 black;
+    border-radius: 5px;
 }
